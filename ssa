@@ -1,0 +1,10 @@
+       01 UNQUALIFIED-SSA.
+          05  SEGMENT-NAME  PIC X(8).
+          05  FILLER        PIC X     VALUE SPACE.
+       01 QUALIFIED-SSA.
+          05  SEGMENT-NAME  PIC X(8).
+          05  FILLER        PIC X(01)     VALUE '('.
+          05  FIELD-NAME    PIC X(8).
+          05  REL-OPR       PIC X(2).
+          05  SEARCH-VALUE  PIC X(n).
+          05  FILLER        PIC X(n+1) VALUE ')'.
